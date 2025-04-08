@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install git -y
-git clone https://github.com/cs220s25/dayoub_cicd /dayoub_cicd>
+git clone https://github.com/cs220s25/dayoub_cicd /dayoub_cicd
 cd /dayoub_cicd
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt 
